@@ -1,7 +1,7 @@
-def parse_to_string():
-    import fitz
-    import json
+import fitz
 
+def parse_to_string():
+        
     pdf_path = "/home/faiyaaz/python/transformers/Resume_SoftwareEng-Intern.pdf"
 
     doc = fitz.open(pdf_path)
